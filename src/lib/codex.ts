@@ -2,7 +2,7 @@ import axios from 'axios';
 import { supabase } from './supabase';
 
 const CODEX_BASE = 'https://api.codex.io'; 
-const headers = { 'X-API-KEY': process.env.NEXT_PUBLIC_CODEX_API_KEY };
+const headers = { 'X-API-KEY': process.env.CODEX_API_KEY };
 
 // Helper to check if a date is older than 5 minutes
 const isStale = (dateString: string) => {

@@ -1,6 +1,6 @@
 import { Connection, PublicKey } from '@solana/web3.js';
 
-const connection = new Connection(process.env.NEXT_PUBLIC_ALCHEMY_SOLANA_RPC!);
+const connection = new Connection(process.env.ALCHEMY_SOLANA_RPC!);
 
 export async function getSolBalance(walletAddress: string): Promise<number> {
   try {
