@@ -61,7 +61,7 @@ export default function Hero() {
             style={{ color: 'var(--color-muted)' }}
           >
             Buy, sell, and discover the hottest Solana tokens — instantly, from
-            your phone or the web. Sign in with Google. No wallet setup
+            the web. Sign in with Google. No wallet setup
             needed.
           </p>
 
